@@ -1,0 +1,14 @@
+$backgroundColor: #122121;
+$mainFontColor: #00bbff;
+
+$cubic: cubic-bezier(.17,.67,.42,1.9);
+@mixin gradientExit() { 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d32a2a+0,d82f29+50,cc2620+51,e84e4e+100 */
+background: rgb(211,42,42); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(211,42,42,1) 0%, rgba(216,47,41,1) 50%, rgba(204,38,32,1) 51%, rgba(232,78,78,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(211,42,42,1) 0%,rgba(216,47,41,1) 50%,rgba(204,38,32,1) 51%,rgba(232,78,78,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(211,42,42,1) 0%,rgba(216,47,41,1) 50%,rgba(204,38,32,1) 51%,rgba(232,78,78,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d32a2a', endColorstr='#e84e4e',GradientType=0 ); /* IE6-9 */
+;
+}
+
